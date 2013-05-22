@@ -1,0 +1,4 @@
+doc/_build
+django_configglue.egg-info
+*.pyc
+.tox

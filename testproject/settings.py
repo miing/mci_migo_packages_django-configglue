@@ -1,0 +1,1 @@
+../django_configglue/tests/settings.py

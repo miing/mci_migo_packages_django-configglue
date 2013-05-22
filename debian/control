@@ -1,0 +1,37 @@
+Source: django-configglue
+Section: python
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Ricardo Kirkner <ricardo.kirkner@canonical.com>
+Build-Depends: cdbs (>= 0.4.43),
+ debhelper (>= 7),
+ python (>= 2.5),
+ python-support,
+ python-setuptools
+XS-Python-Version: >= 2.5
+Standards-Version: 3.9.1
+Homepage: https://launchpad.net/django-configglue
+
+Package: python-django-configglue
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+ python-configglue (> 0.10),
+ python-django (>= 1.0.2)
+Description: Django commands for working with configglue generated settings
+ Django-configglue provides the necessary glue to work with settings
+ generated using configglue ini-style configuration files instead of using
+ plain Python modules.
+ .
+ Configglue is a library that glues together Python's optparse.OptionParser
+ and ConfigParser.ConfigParser, so that you don't have to repeat yourself
+ when you want to export the same options to a configuration file and a
+ commandline interface.
+ .
+ Commands are available to:
+  - get the value of a setting
+  - list all settings used (and their values)
+  - list all settings used, including django global settings (and
+    their values)
+  - locate the definition of a setting (useful when the configuration
+    is defined throughout several files)
+  - validate settings (make sure the values match the defined schema)

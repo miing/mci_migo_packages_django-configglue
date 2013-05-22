@@ -1,0 +1,35 @@
+django-configglue (0.6-0ubuntu1) natty; urgency=low
+
+  * updated documentation
+  * Updated django-configglue to make it compatible with configglue 1.0
+
+ -- Ricardo Kirkner <ricardo.kirkner@canonical.com>  Fri, 05 Aug 2011 17:51:41 -0300
+
+django-configglue (0.5-0ubuntu1) natty; urgency=low
+
+  * Bug (LP: #770093) automatic schema introspection if schema version not found
+  * added __version__ string support
+  * changes to schema declarative syntax using attributes for inner classes to improve readability
+  * Track option and section class name rename occurring in configglue 0.11
+
+ -- Ricardo Kirkner <ricardo.kirkner@canonical.com>  Fri, 15 Jul 2011 19:43:57 -0300
+
+django-configglue (0.4-0ubuntu1) maverick; urgency=low
+
+  * use tox to test all major django versions (up to django 1.3)
+  * allow falling back to other schema when requested
+  * simplified common use case
+
+ -- Ricardo Kirkner <ricardo.kirkner@canonical.com>  Mon, 02 May 2011 10:04:19 -0300
+
+django-configglue (0.3.1-0ubuntu1) maverick; urgency=low
+
+  * Updated code for compatibility with latest configglue (0.9.1)
+
+ -- Ricardo Kirkner <ricardo.kirkner@canonical.com>  Fri, 14 Jan 2011 09:22:52 -0300
+
+django-configglue (0.3-0ubuntu1) maverick; urgency=low
+
+  * Initial package. Closes (LP: #616025)
+
+ -- Ricardo Kirkner <ricardo.kirkner@canonical.com>  Tue, 10 Aug 2010 16:25:54 -0300
